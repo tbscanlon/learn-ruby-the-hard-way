@@ -11,9 +11,9 @@ and requires an explanation.
 \n\t where there is none.
 END
 
-puts "---------------"
+puts "------------------"
 puts poem
-puts "---------------"
+puts "------------------"
 
 
 five = 10 - 2 + 3 - 6
