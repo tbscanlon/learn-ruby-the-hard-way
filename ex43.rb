@@ -21,7 +21,7 @@ class Engine
     end
 
     # Be sure to print out the last scene
-    #current_scene.enter
+    current_scene.enter
   end
 end
 
@@ -193,7 +193,7 @@ class EscapePod < Scene
       puts "The pod easily slides out into space heading to"
       puts "the planet below. As it flies into the planet, you look"
       puts "back and see your ship implode then explode like a"
-      puts "bright starm tajubg iyt tge Gothon ship at the same"
+      puts "bright star taking out the Gothon ship at the same"
       puts "time. You won!"
       return 'finished'
     end
@@ -203,6 +203,7 @@ end
 class Finished < Scene
   def enter
     puts "You won! Good job."
+    exit(1)
   end
 end
 
