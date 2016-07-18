@@ -6,6 +6,7 @@ module Commit_Murder
       "Surname" => "Irving",
       "Age" => 54,
       "Gender" => "Male",
+      "Title" => "Mr.",
       "Occupation" => "Mayor of London",
       "Reason" => "Mr. Irving has been the subject of media investigation into
       allegations of corruption."
@@ -15,6 +16,7 @@ module Commit_Murder
       "Surname" => "McCracken",
       "Age" => 46,
       "Gender" => "Female",
+      "Title" => "Mrs.",
       "Occupation" => "Shadow Foreign Secretary",
       "Reason" => "Ms. McCracken is a known campaigner for laxer immigration controls."
     },
@@ -23,6 +25,7 @@ module Commit_Murder
       "Surname" => "Buchanan",
       "Age" => 49,
       "Gender" => "Male",
+      "Title" => "Mr.",
       "Occupation" => "Managing Director for an international retail chain",
       "Reason" => "Mr. Buchanan's company makes extensive use of a child labour
       force. He has been accused of being fully aware of this and turning a
@@ -33,6 +36,7 @@ module Commit_Murder
       "Surname" => "Blackbourne",
       "Age" => 32,
       "Gender" => "Female",
+      "Title" => "Miss",
       "Occupation" => "Journalist",
       "Reason" => "Ms. Blackbourne liaises with and supports numerous high-profile
       whistleblowers that work to uncover governmental corruption."
@@ -43,6 +47,7 @@ module Commit_Murder
       "Age" => 27,
       "Gender" => "Male",
       "Occupation" => "Athlete",
+      "Title" => "Mr.",
       "Reason" => "After winning 2 gold medals in the previous Olympic Games,
       Mr. Matthews used his status as a household name to campaign for human
       rights, drawing the ire of various regimes throughout the world."
@@ -52,6 +57,7 @@ module Commit_Murder
       "Surname" => "Bush",
       "Age" => 22,
       "Gender" => "Female",
+      "Title" => "Miss",
       "Occupation" => "Socialite",
       "Reason" => "Ms. Bush is a regular fixture in the tabloid newspapers after
        winning a modelling reality TV contest. Stories are published regularly
@@ -63,6 +69,7 @@ module Commit_Murder
       "Surname" => "Moloney",
       "Age" => 38,
       "Gender" => "Male",
+      "Title" => "Mr.",
       "Occupation" => "Police Officer",
       "Reason" => "Mr. Moloney shot and killed an armed aggressor during the most
       recent riots. While certain elements believed it to be nothing short of a
@@ -74,6 +81,7 @@ module Commit_Murder
       "Surname" => "Adamson",
       "Age" => 41,
       "Gender" => "Male",
+      "Title" => "Mr.",
       "Occupation" => "Senior Advisor",
       "Reason" => "Mr. Adamson is the first openly transgender advisor to serve
       the Prime Minister and work in senior government office. This has drawn ire
@@ -209,5 +217,4 @@ module Commit_Murder
     murder_weapon = potential_weapons.sample
   end
 
-  # puts "#{victim["Firstname"]} #{victim["Surname"]} was murdered by #{killer["Firstname"]} #{killer["Surname"]} at #{location} using a #{murder_weapon}."
 end
